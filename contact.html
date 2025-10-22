@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Hôtel Lagarde</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand"><span class="brand-mark">L</span><span class="brand-text">Hôtel Lagarde</span></a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="chambres.html">Chambres</a></li>
+          <li><a href="restaurant.html">Restaurant</a></li>
+          <li><a href="spa.html">Spa</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container grid-2">
+        <div>
+          <h1 class="h2">Nous contacter</h1>
+          <p>Notre équipe est disponible 24/7. Écrivez‑nous, nous répondons rapidement.</p>
+          <form class="booking-card card" onsubmit="event.preventDefault(); alert('Merci, votre message a bien été envoyé.');">
+            <label>Nom
+              <input type="text" required placeholder="Votre nom" />
+            </label>
+            <label>E‑mail
+              <input type="email" required placeholder="votre@email.com" />
+            </label>
+            <label>Sujet
+              <input type="text" required placeholder="Objet de votre demande" />
+            </label>
+            <label>Message
+              <textarea required placeholder="Votre message" style="min-height:120px;padding:.6rem .7rem;border-radius:10px;border:1px solid #0002"></textarea>
+            </label>
+            <menu>
+              <button class="btn btn-outline" type="reset">Effacer</button>
+              <button class="btn btn-gold" type="submit">Envoyer</button>
+            </menu>
+          </form>
+        </div>
+        <div class="map-card card lift">
+          <iframe title="Carte de Paris" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=2.308%2C48.868%2C2.326%2C48.881&amp;layer=mapnik&amp;marker=48.875%2C2.317"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tint">
+      <div class="container">
+        <h2 class="h2">Coordonnées</h2>
+        <p>12, rue Lagarde, 75008 Paris — France</p>
+        <div class="chips">
+          <a class="chip" href="tel:+33123456789">+33 (0)1 23 45 67 89</a>
+          <a class="chip" href="mailto:reservations@hotel-lagarde.com">reservations@hotel-lagarde.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand brand-invert"><span class="brand-mark">L</span><span class="brand-text">Hôtel Lagarde</span></div>
+      <p class="muted">© <span id="year"></span> Hôtel Lagarde</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

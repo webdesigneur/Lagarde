@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>À propos — Hôtel Lagarde</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand"><span class="brand-mark">L</span><span class="brand-text">Hôtel Lagarde</span></a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="chambres.html">Chambres</a></li>
+          <li><a href="restaurant.html">Restaurant</a></li>
+          <li><a href="spa.html">Spa</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="À propos" style="min-height:46vh">
+    <div class="hero-media" style="background:linear-gradient(180deg, rgba(11,29,42,.35), rgba(11,29,42,.6)), url('https://images.unsplash.com/photo-1543340713-8a9f4a27b007?q=80&w=1920&auto=format&fit=crop') center/cover no-repeat;"></div>
+    <div class="container hero-content">
+      <h1 class="display">L’adresse d’un certain Paris</h1>
+      <p class="lead">Une maison haussmannienne où l’art de vivre rencontre le service le plus attentionné.</p>
+    </div>
+    <svg class="hero-ornament" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M0,0 L1200,0 L1200,50 C900,120 300,120 0,50 Z"></path></svg>
+  </section>
+
+  <main>
+    <section class="section">
+      <div class="container grid-2">
+        <div>
+          <h2 class="h2">Notre philosophie</h2>
+          <p>Créé dans un esprit de demeure privée, l’Hôtel Lagarde privilégie les attentions sincères et le confort discret. Matériaux nobles, lumière naturelle et design intemporel signent les espaces.</p>
+          <ul class="features">
+            <li>Service sur-mesure &amp; conciergerie Clefs d’Or</li>
+            <li>Écoresponsabilité : circuits courts, soins clean, réduction plastique</li>
+            <li>Patrimoine architectural conservé et restauré</li>
+          </ul>
+        </div>
+        <figure class="card photo lift">
+          <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?q=80&w=1600&auto=format&fit=crop" alt="Détails de moulures et marbre" loading="lazy" />
+          <figcaption>Détails de moulures &amp; marbre</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section tint">
+      <div class="container">
+        <h2 class="h2 center">Ligne du temps</h2>
+        <div class="gallery">
+          <img class="lift" src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop" alt="Petit déjeuner en chambre">
+          <img class="lift" src="https://images.unsplash.com/photo-1501117716987-c8e3f4b2ba3f?q=80&w=1200&auto=format&fit=crop" alt="Balcon haussmannien">
+          <img class="lift" src="https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=1200&auto=format&fit=crop" alt="Bibliothèque feutrée">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand brand-invert"><span class="brand-mark">L</span><span class="brand-text">Hôtel Lagarde</span></div>
+      <p class="muted">© <span id="year"></span> Hôtel Lagarde</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
