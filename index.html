@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hôtel Lagarde — L'élégance haussmannienne</title>
+  <meta name="description" content="Hôtel Lagarde : une adresse confidentielle où l'art de vivre parisien rencontre le luxe contemporain." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="theme-color" content="#0b1d2a">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header" data-elevate>
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Accueil Hôtel Lagarde">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span class="brand-text">Hôtel Lagarde</span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="chambres.html">Chambres</a></li>
+          <li><a href="restaurant.html">Restaurant</a></li>
+          <li><a href="spa.html">Spa</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button class="btn btn-gold small" data-open-booking>Réserver</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="hero" class="hero" aria-label="Présentation de l'hôtel">
+      <div class="hero-media" role="img" aria-label="Façades haussmanniennes de Paris au crépuscule" style="
+        background:
+          radial-gradient(1200px 400px at 50% 10%, rgba(212,175,55,.25), transparent 60%),
+          linear-gradient(180deg, rgba(11,29,42,.25), rgba(11,29,42,.55)),
+          url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1920&auto=format&fit=crop') center/cover no-repeat fixed;
+      "></div>
+      <div class="container hero-content">
+        <p class="overtitle animate-in">PARIS • 8ᵉ</p>
+        <h1 class="display animate-in" style="--d:0.05s">Hôtel Lagarde</h1>
+        <p class="lead animate-in" style="--d:0.1s">L'élégance haussmannienne au cœur de Paris.</p>
+        <div class="cta-group animate-in" style="--d:0.15s">
+          <button class="btn btn-gold" data-open-booking aria-haspopup="dialog">Réserver</button>
+          <a class="btn btn-outline" href="chambres.html">Découvrir les chambres</a>
+        </div>
+      </div>
+      <svg class="hero-ornament" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,0 L1200,0 L1200,50 C900,120 300,120 0,50 Z"></path>
+      </svg>
+    </section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <div>
+          <h2 class="h2">Chambres &amp; Suites</h2>
+          <p>Matériaux nobles, corniches sculptées et étoffes profondes. Chaque chambre marie confort contemporain et charme haussmannien.</p>
+          <a class="btn" href="chambres.html">Voir toutes les chambres</a>
+        </div>
+        <figure class="card photo lift">
+          <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1600&auto=format&fit=crop" alt="Suite avec moulures, parquets et balcon filant" loading="lazy" />
+          <figcaption>Suite Opéra — balcon filant &amp; vue sur les toits</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section tint">
+      <div class="container grid-2">
+        <figure class="card photo lift">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1600&auto=format&fit=crop" alt="Assiette gastronomique contemporaine" loading="lazy" />
+          <figcaption>Restaurant Lagarde — terroir et modernité</figcaption>
+        </figure>
+        <div>
+          <h2 class="h2">Gastronomie</h2>
+          <p>Une table de saison signée par notre chef, entre classicisme parisien et audace contemporaine.</p>
+          <a class="btn btn-outline" href="restaurant.html">Découvrir le restaurant</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <div>
+          <h2 class="h2">Spa &amp; Bien‑être</h2>
+          <p>Un cocon minéral avec piscine miroir, sauna, hammam et soins sur‑mesure.</p>
+          <a class="btn" href="spa.html">Accéder au spa</a>
+        </div>
+        <figure class="card photo lift">
+          <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1600&auto=format&fit=crop" alt="Spa apaisant avec piscine intérieure" loading="lazy" />
+          <figcaption>Le Spa Lagarde — détente absolue</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section tint">
+      <div class="container grid-2">
+        <div>
+          <h2 class="h2">Votre événement</h2>
+          <p>Réunions, lancements ou mariages intimistes : nos salons modulables accueillent jusqu’à 120 invités.</p>
+          <a class="btn btn-outline" href="contact.html">Demander un devis</a>
+        </div>
+        <figure class="card photo lift">
+          <img src="https://images.unsplash.com/photo-1541534401786-2077eed87a72?q=80&w=1600&auto=format&fit=crop" alt="Salon haussmannien pour événements" loading="lazy" />
+          <figcaption>Salons privés — lumière naturelle &amp; parquet point de Hongrie</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="h2 center">En savoir plus</h2>
+        <div class="chips" style="justify-content:center">
+          <a class="chip" href="a-propos.html">Notre maison</a>
+          <a class="chip" href="chambres.html">Chambres & Suites</a>
+          <a class="chip" href="restaurant.html">Restaurant & Bar</a>
+          <a class="chip" href="spa.html">Spa</a>
+          <a class="chip" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand brand-invert">
+          <span class="brand-mark">L</span>
+          <span class="brand-text">Hôtel Lagarde</span>
+        </div>
+        <p class="muted">© <span id="year"></span> Hôtel Lagarde. Tous droits réservés.</p>
+      </div>
+      <nav aria-label="Liens utiles">
+        <ul class="footer-links">
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Confidentialité</a></li>
+          <li><a href="#">CGV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Booking Dialog -->
+  <dialog class="booking" aria-labelledby="booking-title">
+    <form method="dialog" class="booking-card card">
+      <h2 id="booking-title" class="h3">Réserver votre séjour</h2>
+      <div class="form-grid">
+        <label>Arrivée
+          <input type="date" required>
+        </label>
+        <label>Départ
+          <input type="date" required>
+        </label>
+        <label>Invités
+          <input type="number" min="1" value="2" required>
+        </label>
+        <label>Type de chambre
+          <select>
+            <option>Classique</option>
+            <option>Deluxe</option>
+            <option>Junior Suite</option>
+            <option>Suite Opéra</option>
+          </select>
+        </label>
+      </div>
+      <menu>
+        <button value="cancel" class="btn btn-outline">Fermer</button>
+        <button value="confirm" class="btn btn-gold">Voir les tarifs</button>
+      </menu>
+      <p class="micro muted">Sans engagement. Paiement sécurisé à l’arrivée.</p>
+    </form>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
